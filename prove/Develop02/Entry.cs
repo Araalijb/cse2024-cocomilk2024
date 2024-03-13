@@ -17,4 +17,4 @@ public class Entry
     {
         return $"{_location} {_date} {_prompt}: {_response}";
     }
-}
+} 

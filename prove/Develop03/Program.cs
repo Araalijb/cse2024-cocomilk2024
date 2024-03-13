@@ -4,6 +4,9 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Develop03 World!");
+        string filePath = "scripture.txt"; //This will load scriptures from the scripture.txt file
+
+        Scripture scriptures = new Scripture(filePath);
+        scriptures.DisplayScriptures();
     }
 }
